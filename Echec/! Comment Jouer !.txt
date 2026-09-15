@@ -1,0 +1,44 @@
+Télécharger notre fichier avec toute les images et penser a extraire le tout dans un dossier.
+
+Tout d'abord installer Edupython sur :	http://edupython.free.fr/
+
+
+Une fois installer le lancer et en haut de l'écran il y aura fichier, cliquer dessus, faite ensuite "ouvrir" et sélectionner notre fichier python dans le dossier où vous l'avez dézipper.
+
+Il faut aussi importé tkinter. Pour cela il faut aller dans Outils, encore Outils, installer un module avec pip puis taper "tkinter"
+
+De nouveau en haut de votre écran il y a, un triangle vert qui va exécuter le programme, il suffit de cliquer dessus pour profiter de notre jeu !!
+
+
+But du jeu: Se sont des échecs classiques donc pour gagner il suffit de mettre échec et mat donc si le roi est en échec, qu'il ne peux pas bouger et qu'on ne peux pas mettre une pièce pour bloquer l'échec ou manger la pièce qui fait l'échec.
+
+
+A Savoir :
+En cas de echec et mat le programme s'actualise au deuxieme click sur une piece de votre couleur
+Pour sélectionner une autre pièces si vous avez déjà cliquer sur une autre vous devez cliquer 2 fois.
+De même quand le roi est en échec t mat il suffit de cliquer n'importe où sur l'échiquier. 
+
+Options : -- Affichage des cases possible 
+
+	  -- Promotions de pion
+
+
+Mouvement des pièces :
+
+Le pion peux avancer de 1 et il peux avancer de 2 si et seulement si il n'a pas encore bouger.
+Il mange en diagonale de une case.
+
+Le cavalier se déplace et mange en L.
+
+Le fou se déplace et mange en diagonale.
+
+La tour se déplace sur les deux axes, l'axe : X et l'axe : Y et mange sur ces même axes.
+
+La dame se déplace et mange à la manière de la tour et du fou donc en ligne et diagonal.
+
+Le roi se déplace d'une case tout au tour de lui.
+
+
+
+Crédit : Meilleurs développeurs de l'années --> Ilann, David, Manis
+
