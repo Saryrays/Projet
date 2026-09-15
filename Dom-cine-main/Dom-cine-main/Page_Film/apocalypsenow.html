@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Ciné</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body style="background: #b9b9ff;">
+    <div class="entete_page">
+        <h1 style="color: #191970;">Dom Ciné</h1>
+        <img src="../icone_recherche.png" width="40px">
+        <input  type="search" oninput="recherche()" id="Recherche" class="recherche" placeholder="Rechercher un film...">
+        <a href ="../index.html"> <h2 style="color: #191970;">Accueil </h2></a>
+    </div>
+    <div class ="ConteneurPage">
+        <div class ="block_page">
+            <div class="titre_encadrer">
+                <p class="titre_page">Apocalypse Now :</p>
+            </div>
+            <div class="info_encadrer">
+                <p class="info">Durer: 3 heure et 02 minutes</p>
+                <p class="info">Réalisateur :  Francis Ford Coppola</p>
+            </div>
+            <img src="../Image_Film/apocalypsenow.jpg" class="image_page" />
+            <iframe 
+                class="video_page"
+                src="https://www.youtube.com/embed/9l-ViOOFH-s?si=jv0TNvUfEdFYpQOe" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+            </iframe>
+            <div>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles1()" class="etoile" id="etoile1"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles2()" class="etoile" id="etoile2"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles3()" class="etoile" id="etoile3"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles4()" class="etoile" id="etoile4"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles5()" class="etoile" id="etoile5"/>
+            </div>
+            <h3>Synopsis :</h3>
+            <p>Au cœur du conflit vietnamien, Apocalypse Now suit l’épopée du Capitaine Willard chargé par ses supérieurs de retrouver le Colonel Kurtz, un ancien béret vert régnant sur une armée de fanatiques quelque part au-delà de la frontière cambodgienne…<p>
+            <h3>Acteurs principaux :</h3>
+            <div class="image_rangement"> 
+                <div>
+                    <img src="../acteur/MartinSheen.jpg"/>
+                    <figcaption>Martin Sheen</figcaption>
+                </div>
+                <div>
+                    <img src="../acteur/FredericForrest.jpg"/>
+                    <figcaption>Frederic Forrest</figcaption>
+                </div>
+                <div>
+                    <img src="../acteur/RobertDuvall.jpg"/>
+                    <figcaption>Robert Duvall</figcaption>
+                </div>
+                <div>
+                    <img src="../acteur/Alberthall.jpg"/>
+                    <figcaption>Albert Hall</figcaption>
+                </div>
+                <div>
+                    <img src="../acteur/harrissonFord.jpg"/>
+                    <figcaption>Harrisson Ford</figcaption>
+                </div>
+                <div>
+                    <img src="../acteur/DennisHopper.jpg"/>
+                    <figcaption>Dennis Hopper</figcaption>
+                </div>
+                <div>
+                    <img src="../acteur/marlonBrando.jpg"/>
+                    <figcaption>Marlon Brando</figcaption>
+                </div>
+                <div>
+                    <img src="../acteur/samBottoms.jpg"/>
+                    <figcaption>Sam Bottoms</figcaption>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../java.js"></script>
+</html>

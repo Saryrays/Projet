@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Ciné</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body style="background: #b9b9ff;">
+    <div class="entete_page">
+        <h1 style="color: #191970;">Dom Ciné</h1>
+        <img src="../icone_recherche.png" width="40px">
+        <input  type="search" oninput="recherche()" id="Recherche" class="recherche" placeholder="Rechercher un film...">
+        <a href ="../index.html"> <h2 style="color: #191970;">Accueil </h2></a>
+    </div>
+    <div class ="body">
+        <div class ="block_page">
+            <div class="titre_encadrer">
+                <p class="titre_page">Le Labyrinthe:</p>
+            </div>
+            <div class="info_encadrer">
+                <p class="info">Durer: 1 heure et 54 minutes</p>
+                <p class="info">Réalisateur : Wes Ball </p>
+            </div>
+            <img src="../Image_Film/Labyrinthe.jpg" class="image_page" />
+            <iframe
+                class="video_page" 
+                src="https://www.youtube.com/embed/LyPiCH_4Al4?si=xw9bhDHTNNZOiTyl" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+            </iframe>
+            <div>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles1()" class="etoile" id="etoile1"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles2()" class="etoile" id="etoile2"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles3()" class="etoile" id="etoile3"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles4()" class="etoile" id="etoile4"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles5()" class="etoile" id="etoile5"/>
+            </div>
+            <h3>Synopsis :</h3>
+            <p>Quand Thomas reprend connaissance, il est pris au piège avec un groupe d’autres garçons dans un labyrinthe géant dont le plan est modifié chaque nuit. Il n’a plus aucun souvenir du monde extérieur, à part d’étranges rêves à propos d’une mystérieuse organisation appelée W.C.K.D. En reliant certains fragments de son passé, avec des indices qu’il découvre au sein du labyrinthe, Thomas espère trouver un moyen de s’en échapper.<p>
+                <h3>Acteurs principaux :</h3>
+                <div class="image_rangement"> 
+                    <div>
+                        <img src="../acteur/KiHongLee.webp"/>
+                        <figcaption>Ki Hong Lee</figcaption>
+                    </div>
+                    <div>
+                        <img src="../acteur/KayaScodelario.webp"/>
+                        <figcaption>Kaya Scodelario</figcaption>
+                    </div>
+                    <div>
+                        <img src="../acteur/WillPoulter.webp"/>
+                        <figcaption>Will Poulter</figcaption>
+                    </div>
+                    <div>
+                        <img src="../acteur/Aml Ameen.jpg"/>
+                        <figcaption>Aml Ameen</figcaption>
+                    </div>
+                    <div>
+                        <img src="../acteur/DylanO'Brien.webp"/>
+                        <figcaption>DylanO'Brien</figcaption>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+</body>
+<script src="../java.js"></script>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Ciné</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body style="background: #b9b9ff;">
+    <div class="entete_page">
+        <h1 style="color: #191970;">Dom Ciné</h1>
+        <img src="../icone_recherche.png" width="40px">
+        <input  type="search" oninput="recherche()" id="Recherche" class="recherche" placeholder="Rechercher un film...">
+        <a href ="../index.html"> <h2 style="color: #191970;">Accueil </h2></a>
+    </div>
+    <div class ="body">
+        <div class ="block_page">
+            <div class="titre_encadrer">
+                <p class="titre_page">Jurassic Park 3 :</p>
+            </div>
+            <div class="info_encadrer">
+                <p class="info">Durer: 1 heure et 32 minutes</p>
+                <p class="info">Réalisateur : Joe Johnstong</p>
+            </div>
+            <img src="../Image_Film/jurassic_park3.jpg" class="image_page"/>
+            <iframe 
+                class="video_page"
+                src="https://www.youtube.com/embed/FxOfakcWAeE?si=nmJp-JgDmQSryz6Q" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+            </iframe>
+            <div>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles1()" class="etoile" id="etoile1"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles2()" class="etoile" id="etoile2"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles3()" class="etoile" id="etoile3"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles4()" class="etoile" id="etoile4"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles5()" class="etoile" id="etoile5"/>
+            </div>
+            <h3>Synopsis :</h3>
+            <p>Huit ans après les événements surréalistes survenus lors de sa visite au Jurassic Park du richissime John Hammond, le paléontologue Alan Grant se rappelle toujours de sa rencontre, d'abord magique puis effroyable, avec ces dinosaures ramenés à la vie grâce aux incroyables progrès de la génétique. À l'origine, ces créatures de la Préhistoire n'étaient pas censées se reproduire ni survivre, mais elles ont déjoué les plans des scientifiques. Elles sont probablement toujours en vie sur l'île Isla Sorna.Alan étudie l'intelligence des vélociraptors. Cependant, il manque de subventions pour financer ses recherches. Paul Kirby et sa femme Amanda, un couple richissime, lui proposent alors une grosse somme d'argent s'il leur fait survoler la fameuse île. Alan accepte leur offre.Mais celui-ci flaire une entourloupe lorsque le pilote amorce sa descente sur l'île. Il découvre alors les vraies raisons de l'excursion organisée par les Kirby : sauver Eric, leur fils disparu dans les environs. Ces derniers avaient besoin de son aide, car il est le seul à connaître l'île et ses mystérieux occupants. Cependant, au moment où l'avion s'apprête à redécoller, un spinosaure tente de piétiner l'appareil...<p>
+                <h3>Acteurs principaux :</h3>
+                <div class="image_rangement"> 
+                    <div>
+                        <img src="../acteur/SamNeill.jpg"/>
+                        <figcaption>Sam Neill</figcaption>
+                    </div>
+                    <div>
+                        <img src="../acteur/AllessandroNivola.jpg"/>
+                        <figcaption>Allessandro Nivola</figcaption>
+                    </div>
+                    <div>
+                        <img src="../acteur/WilliamMacy.jpg"/>
+                        <figcaption>William H. Macy</figcaption>
+                    </div>
+                    <div>
+                        <img src="../acteur/TeaLeoni.jpg"/>
+                        <figcaption>Tea Leoni</figcaption>
+                    </div>
+                    <div>
+                        <img src="../acteur/TrevorMorgan.jpg"/>
+                        <figcaption>Trevor Morgan</figcaption>
+                    </div>
+                    <div>
+                        <img src="../acteur/MichaelJeter.jpg"/>
+                        <figcaption>Michael Jeter</figcaption>
+                    </div>
+                    <div>
+                        <img src="../acteur/JohnDiehl.jpg"/>
+                        <figcaption>John Diehl</figcaption>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+</body>
+<script src="../java.js"></script>
+</html>

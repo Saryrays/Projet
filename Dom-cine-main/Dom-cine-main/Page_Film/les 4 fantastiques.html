@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Ciné</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body style="background: #b9b9ff;">
+    <div class="entete_page">
+        <h1 style="color: #191970;">Dom Ciné</h1>
+        <img src="../icone_recherche.png" width="40px">
+        <input  type="search" oninput="recherche()" id="Recherche" class="recherche" placeholder="Rechercher un film...">
+        <a href ="../index.html"> <h2 style="color: #191970;">Accueil </h2></a>
+    </div>
+    <div class ="body">
+        <div class ="block_page">
+            <div class="titre_encadrer">
+                <p class="titre_page">Les 4 Fantastiques :</p>
+            </div>
+            <div class="info_encadrer">
+                <p class="info">Durer: 1 heure et 55 minutes</p>
+                <p class="info">Réalisateur : Matt Shakman</p>
+            </div>
+            <img src="../Image_Film/4fantastiques.jpg" class="image_page" />
+                <iframe  
+                class="video_page"
+                src="https://www.youtube.com/embed/f7KtZ-8NAoU?si=GNI9uAZ3xLk4V_z1"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+            </iframe>
+            <div>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles1()" class="etoile" id="etoile1"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles2()" class="etoile" id="etoile2"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles3()" class="etoile" id="etoile3"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles4()" class="etoile" id="etoile4"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles5()" class="etoile" id="etoile5"/>
+            </div>
+            <h3>Synopsis :</h3>
+            <p>LES 4 FANTASTIQUES : PREMIERS PAS nous plonge dans un univers rétro-futuriste inspiré des années 1960 et permet de retrouver à l'écran : Reed Richards (alias Mr. Fantastique), Sue Storm (alias la Femme Invisible), Johnny Storm (alias la Torche Humaine) et Ben Grimm (alias la Chose). Face à cette famille forcée de trouver un équilibre entre leur rôle de super-héros et la force des liens qui les unissent, se dresse une menace démesurée : l'entité cosmique Galactus et son énigmatique bras droit le Surfeur d'Argent dont l'ambition n'est autre que de dévorer la Terre entière et tous ses habitants. Et comme si tout ceci ne suffisait pas, les choses prennent soudainement une tournure très personnelle...<p>
+            <h3>Acteurs principaux</h3>
+            <div class="image_rangement"> 
+                <div>
+                    <img src="../acteur/PedroPascal.jpg"/>
+                    <figcaption>Pedro Pascal</figcaption>
+                </div>
+                <div>
+                    <img src="../acteur/VanessaKirby.jpg"/>
+                    <figcaption>Vanessa Kirby</figcaption>
+                </div>
+                <div>
+                    <img src="../acteur/JosesphQuinn.jpg"/>
+                    <figcaption>Josesph Quinn</figcaption>
+                </div>
+                <div>
+                    <img src="../acteur/EbonMoss_Bachrach.jpg"/>
+                    <figcaption>Ebon Moss-Bachrach</figcaption>
+                </div>
+                <div>
+                    <img src="../acteur/RalphIneson.jpg"/>
+                    <figcaption>Ralph Ineson</figcaption>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+</body>
+<script src="../java.js"></script>
+</html>

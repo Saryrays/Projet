@@ -1,0 +1,164 @@
+body{
+    background: #b9b9ff;
+}
+/* ENTETE DE L'ACCUEIL */
+.entete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #f5f5f5;   /* couleur du rectangle */
+    border-radius: 20px;         /* angles arrondis */
+    padding: 15px 25px;          /* espace intérieur */
+    margin: 20px;
+}
+
+.entete img{
+    position:absolute ;
+    left: 17%;
+}
+.entete .recherche {
+    position: absolute;
+    left: 5%; /* espace après l’icône */
+    width: 10%;
+}
+.entete h1 {
+    margin: 0;
+    color: #191970;
+}
+.entete h2{
+    margin-left:680%;
+}
+/* POUR RENDRE LA PAGE PLUS RECTANGLE */
+.bas_de_page{
+    width: 100%;
+    padding-bottom: 20px;
+    background: #b9b9ff;
+}
+/* LE CONTENEUR DES IMAGES DE FILMS */
+.block {
+    background: #a1a1f1;
+    margin-left: 5%;
+    width: 90%; 
+    text-align: center;
+}
+.CouleurFondConteneur{ 
+    background-color: #b8b8ff;
+}
+
+/* RANGEMENT POUR LES IMAGE ET LES TITRE DANS L'ACCUEIL */
+.image_rangement {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(195px, 1fr));
+    margin-left: 35px;
+    padding-top: 20px;
+    gap:10px;
+    padding-bottom: 30px;
+}
+.image_rangement figcaption {
+    font-family: "Courier New", monospace;
+    text-align: center;
+    margin-right: 15%;
+}
+
+.image_rangement img {
+    width: 190px;
+    height: 250px;
+    display: block;
+}
+.image_rangement > div {
+    display: block;
+}
+/* CREATION DU RECTANGLE QUI CONTIENT LE TOUT */
+.block_page {
+    background: #a1a1f1;
+    margin-left: 5%;
+    width: 90%;
+    padding-top:10px ; 
+    padding-bottom: 10px;
+    text-align: center;
+}
+/* ENCADRER TITRE FLMS */
+.titre_encadrer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height:100px;
+    background-color: #f5f5f5;   /* couleur du rectangle */
+    border-radius: 20px;         /* angles arrondis */
+    padding: 15px 25px;          /* espace intérieur */
+    margin: 20px auto;
+}
+
+/* TITRE/INFO(durer realisateyr) FORME */
+.titre_page{
+    font-size: 50px;
+    text-decoration: underline; /* →surligner */
+    color: black;  /* → changer la couleur */
+    font-family: Impact, sans-serif;  /* → changer la police */
+}
+.info_encadrer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height:50px;
+    background-color: #f5f5f5;   /* couleur du rectangle */
+    border-radius: 20px;         /* angles arrondis */
+    margin: 20px auto;
+}
+.info_encadrer .info{
+    font-weight: bold;
+    margin:auto 100px
+}
+/* RANGEMENT DES IMAGES DES PAGES */
+.ConteneurPage {
+    display: flex;
+    gap: 20px; /* espace entre image et vidéo */
+    align-items: flex-start; /* aligne le haut des éléments */
+}
+
+.image_page {
+    width: 300px; /* largeur de l'image */
+    height: 400px; /* hauteur de l'image */
+    margin: 20px auto;
+}
+
+.video_page {
+    width: 560px; /* largeur de la vidéo */
+    height: 400px; /* hauteur fixe */
+    margin: 20px auto;
+}
+
+/* ENTETE DES PAGE DE FILM*/
+.entete_page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #f5f5f5;   /* couleur du rectangle */
+    border-radius: 20px;         /* angles arrondis */
+    padding: 15px 25px;          /* espace intérieur */
+    margin: 20px;
+}
+
+.entete_page img{
+    display: none;
+}
+.entete_page .recherche {
+    display: none;
+}
+.entete_page h1 {
+    margin: 0;
+    color: #191970;
+}
+.entete_page h2{
+    margin-left:680%;
+}
+/* ETOILE */
+.etoile{
+    width: 50px; 
+    height: 50px; 
+    
+}

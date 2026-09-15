@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Ciné</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body style="background: #b9b9ff;">
+    <div class="entete_page">
+        <h1 style="color: #191970;">Dom Ciné</h1>
+        <img src="../icone_recherche.png" width="40px">
+        <input  type="search" oninput="recherche()" id="Recherche" class="recherche" placeholder="Rechercher un film...">
+        <a href ="../index.html"> <h2 style="color: #191970;">Accueil </h2></a>
+    </div>
+    <div class ="ConteneurPage">
+        <div class ="block_page">
+            <div class="titre_encadrer">
+                <p class="titre_page">Avatar : de Feu et de Cendres :</p>
+            </div>
+            <div class="info_encadrer">
+                <p class="info">Durer: 3 heure et 17 minutes</p>
+                <p class="info">Réalisateur :  James Cameron</p>
+            </div>
+            <img src="../Image_Film/avatar3.jpg" class="image_page" />
+            <iframe 
+                class="video_page"
+                src="https://www.youtube.com/embed/ouVuXBtxk9M?si=_WCZoWMCVFmPbwzJ"   
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+            </iframe>
+            <div>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles1()" class="etoile" id="etoile1"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles2()" class="etoile" id="etoile2"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles3()" class="etoile" id="etoile3"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles4()" class="etoile" id="etoile4"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles5()" class="etoile" id="etoile5"/>
+            </div>
+            <h3>Synopsis :</h3>
+            <p>Quelques semaines après les événements relatés dans AVATAR : LA VOIE DE L’EAU…
+
+                Jake Sully et sa famille vivent toujours parmi les Metkayina, à proximité d’un magnifique récif de corail de la planète Pandora. Ils doivent apprendre à surmonter la perte de Neteyam, tué au cours d’un violent affrontement avec le « Peuple du ciel » de la RDA (Resources Development Administration). Jake, Neytiri, Lo’ak, Tuk, Spider et Kiri sont confrontés, chacun à leur manière, à une forme de deuil.
+                
+                Même si Spider s’est parfaitement adapté au mode de vie des Metkayina, ses proches craignent pour sa sécurité et comprennent qu’il ne peut plus rester auprès d’eux. Aussi, lorsque les Sully font la connaissance des Tlalim - un peuple pacifique et nomade connu sous le nom de « Marchands du Vent », qui sillonne les airs pour se déplacer - ils le confient à leur chef Peylak afin qu’il le ramène au High Camp, le bastion des Omatikaya. Mais bientôt, toute la famille finit par accompagner Spider et les Marchands du Vent dans leur périple.
+                
+                Malheureusement, leur voyage est brutalement interrompu lorsqu’ils sont attaqués par des membres des Mangkwan, le peuple des Cendres, dirigés par Varang. La destruction de leur territoire par un volcan a profondément bouleversé le mode de vie et les traditions des Mangkwan qui tiennent Eywa - la Grande Mère de Pandora - responsable de la catastrophe. Pendant ce temps, la RDA, qui a subi une défaite cuisante après son affrontement avec Jake Sully et les Metkayina, tente de reconstituer ses forces avant de programmer sa prochaine offensive…</h3>
+            <h3>Acteurs principaux :</h3>
+            <div class="image_rangement"> 
+                <div>
+                    <img src="../acteur/SamWorthington.jpg"/>
+                    <figcaption>Sal Worthington</figcaption>
+                </div>
+                <div>
+                    <img src="../acteur/ZoeSaldana.jpg"/>
+                    <figcaption>Zoe Saldana</figcaption>
+                </div>
+                <div>
+                    <img src="../acteur/SigourneyWeaver.jpg"/>
+                    <figcaption>Sigourney Weaver</figcaption>
+                </div>
+                <div>
+                    <img src="../acteur/StephenLang.jpg"/>
+                    <figcaption>Stephen Lang</figcaption>
+                </div>
+                <div>
+                    <img src="../acteur/KateWinslet.jpg"/>
+                    <figcaption>Kate Winslet</figcaption>
+                </div>
+                <div>
+                    <img src="../acteur/CliffCurtis.jpg"/>
+                    <figcaption>Cliff Curtis</figcaption>
+                </div>
+                <div>
+                    <img src="../acteur/JoelDavid.jpg"/>
+                    <figcaption>Joel David Moore</figcaption>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../java.js"></script>
+</html>

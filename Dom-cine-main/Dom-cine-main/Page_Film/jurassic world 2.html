@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Ciné</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body style="background: #b9b9ff;">
+    <div class="entete_page">
+        <h1 style="color: #191970;">Dom Ciné</h1>
+        <img src="../icone_recherche.png" width="40px">
+        <input  type="search" oninput="recherche()" id="Recherche" class="recherche" placeholder="Rechercher un film...">
+        <a href ="../index.html"> <h2 style="color: #191970;">Accueil </h2></a>
+    </div>
+    <div class ="body">
+        <div class ="block_page">
+            <div class="titre_encadrer">
+                <p class="titre_page">Jurassic World 2 :</p>
+            </div>
+            <div class="info_encadrer">
+                <p class="info">Durer: 2 heures et 08 minutes</p>
+                <p class="info">Réalisateur : Juan Antonio Bayona</p>
+            </div>
+            <img src="../Image_Film/jurassic_world2.jpg" class="image_page"/>
+            <iframe 
+                class="video_page"
+                src="https://www.youtube.com/embed/4-kBkhp2D-g?si=j_JgxFub8p-9Lzfl" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+            </iframe>
+            <div>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles1()" class="etoile" id="etoile1"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles2()" class="etoile" id="etoile2"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles3()" class="etoile" id="etoile3"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles4()" class="etoile" id="etoile4"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles5()" class="etoile" id="etoile5"/>
+            </div>
+            <h3>Synopsis :</h3>
+            <p>Cela fait maintenant trois ans que les dinosaures se sont échappés de leurs enclos et ont détruit le parc à thème et complexe de luxe Jurassic World. Isla Nublar a été abandonnée par les humains alors que les dinosaures survivants sont livrés à eux-mêmes dans la jungle. Lorsque le volcan inactif de l'île commence à rugir, Owen et Claire s’organisent pour sauver les dinosaures restants de l’extinction.  Owen se fait un devoir de retrouver Blue, son principal raptor qui a disparu dans la nature, alors que Claire, qui a maintenant un véritable respect pour ces créatures, s’en fait une mission. Arrivant sur l'île instable alors que la lave commence à pleuvoir, leur expédition découvre une conspiration qui pourrait ramener toute notre planète à un ordre périlleux jamais vu depuis la préhistoire.<p>
+                <h3>Acteurs principaux :</h3>
+                <div class="image_rangement"> 
+                    <div>
+                        <img src="../acteur/ChrisPratt.jpg"/>
+                        <figcaption>Chriss Pratt</figcaption>
+                    </div>
+                    <div>
+                        <img src="../acteur/BryceDallasHoward.jpg"/>
+                        <figcaption>Bryce Dallas Howard</figcaption>
+                    </div>
+                    <div>
+                        <img src="../acteur/RafeSpall.jpg"/>
+                        <figcaption>Rafe Spall</figcaption>
+                    </div>
+                    <div>
+                        <img src="../acteur/JusticeSmith.jpg"/>
+                        <figcaption>Justice Smith</figcaption>
+                    </div>
+                    <div>
+                        <img src="../acteur/DaniellaPineda.jpg"/>
+                        <figcaption>Daniella Pineda</figcaption>
+                    </div>
+                    <div>
+                        <img src="../acteur/JamesCromwell.jpg"/>
+                        <figcaption>James Cromwell</figcaption>
+                    </div>
+                    <div>
+                        <img src="../acteur/TobyJones.jpg"/>
+                        <figcaption>Toby Jones</figcaption>
+                    </div>
+                    <div>
+                        <img src="../acteur/IsabellaSermon.jpg"/>
+                        <figcaption>Isabella Sermon</figcaption>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+</body>
+<script src="../java.js"></script>
+</html>

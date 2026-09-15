@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Ciné</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body style="background: #b9b9ff;">
+    <div class="entete_page">
+        <h1 style="color: #191970;">Dom Ciné</h1>
+        <img src="../icone_recherche.png" width="40px">
+        <input  type="search" oninput="recherche()" id="Recherche" class="recherche" placeholder="Rechercher un film...">
+        <a href ="../index.html"> <h2 style="color: #191970;">Accueil </h2></a>
+    </div>
+    <div class ="body">
+        <div class ="block_page">
+            <div class="titre_encadrer">
+                <p class="titre_page">The Dark Knight</p>
+            </div>
+            <div class="info_encadrer">
+                <p class="info">Durer: 2 heure et 32 minutes</p>
+                <p class="info">Réalisateur : Christopher Nollan</p>
+            </div>
+            <img src="../Image_Film/Batman.jpg" class="image_page" />
+            <iframe
+                class="video_page" 
+                src="https://www.youtube.com/embed/XGqgxGBn7Qw?si=vuvGEkHgpUDTs6SJ"  
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+            </iframe>
+            <div>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles1()" class="etoile" id="etoile1"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles2()" class="etoile" id="etoile2"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles3()" class="etoile" id="etoile3"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles4()" class="etoile" id="etoile4"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles5()" class="etoile" id="etoile5"/>
+            </div>
+            <h3>Synopsis :</h3>
+            <p>Dans ce nouveau volet, Batman augmente les mises dans sa guerre contre le crime. Avec l'appui du lieutenant de police Jim Gordon et du procureur de Gotham, Harvey Dent, Batman vise à éradiquer le crime organisé qui pullule dans la ville. Leur association est très efficace mais elle sera bientôt bouleversée par le chaos déclenché par un criminel extraordinaire que les citoyens de Gotham connaissent sous le nom de Joker.<p>
+                <h3>Acteurs principaux :</h3>
+                <div class="image_rangement"> 
+                    <div>
+                        <img src="../acteur/ChristianBale.webp"/>
+                        <figcaption>Christian Bale</figcaption>
+                    </div>
+                    <div>
+                        <img src="../acteur/HeathLedger.webp"/>
+                        <figcaption>Heath Ledger</figcaption>
+                    </div>
+                    <div>
+                        <img src="../acteur/Aaron Eckhart.webp"/>
+                        <figcaption>Aaron Eckhart</figcaption>
+                    </div>
+                    <div>
+                        <img src="../acteur/Maggie Gyllenhaal.webp"/>
+                        <figcaption>Maggie Gyllenhaal</figcaption>
+                    </div>
+                    <div>
+                        <img src="../acteur/MorganFreeman.webp"/>
+                        <figcaption>MorganFreeman</figcaption>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+</body>
+<script src="../java.js"></script>
+</html>

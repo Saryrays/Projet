@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Ciné</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body style="background: #b9b9ff;">
+    <div class="entete_page">
+        <h1 style="color: #191970;">Dom Ciné</h1>
+        <img src="../icone_recherche.png" width="40px">
+        <input  type="search" oninput="recherche()" id="Recherche" class="recherche" placeholder="Rechercher un film...">
+        <a href ="../index.html"> <h2 style="color: #191970;">Accueil </h2></a>
+    </div>
+    
+    <div class ="body">
+        <div class ="block_page">
+            <div class="lignePage">
+                <div class="titre_encadrer">
+                <p class="titre_page">A contre sens :</p>
+                </div>
+            </div>
+            <div class="info_encadrer">
+                <p class="info">Durer: 1 heure et 57 minutes</p>
+                <p class="info">Réalisateur : Domingo González</p>
+            </div>
+            <img src="../Image_Film/A_contre_sens.jpg" class="image_page"/>
+            <iframe  
+                class="video_page"
+                src="https://www.youtube.com/embed/pMl38AMqGUk?si=boU4lErbRhl7C0rb" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+            </iframe>    
+            <div>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles1()" class="etoile" id="etoile1"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles2()" class="etoile" id="etoile2"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles3()" class="etoile" id="etoile3"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles4()" class="etoile" id="etoile4"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles5()" class="etoile" id="etoile5"/>
+            </div>
+            <h3>Synopsis :</h3>
+            <div>
+                <p>Noah doit quitter sa ville, son petit ami et ses amis pour emménager dans le manoir de William Leister, le nouveau et riche mari de sa mère. Âgée de dix-sept ans, fière et indépendante, Noah rencontre Nick, son nouveau demi-frère, et leurs fortes personnalités s’entrechoquent dès le début. Noah découvre bientôt que derrière l'image d'un fils modèle, Nick cache une vie de bagarre, de jeu et de courses automobiles illégales. Malgré l'abîme qui les sépare, tous deux commencent à ressentir une attirance irrésistible qui se transformera bientôt en feu et en folle passion. Ni la rivalité permanente, ni l'opposition de leur entourage ne peuvent les empêcher de tomber secrètement et follement amoureux. Mais le présent turbulent de Nick et le passé orageux de Noah mettront à l'épreuve leur vie et leur amour interdit.<p>
+                <h3>Acteurs principaux :</h3>
+            </div>
+            <div class="image_rangement"> 
+                <div>
+                    <img src="../acteur/NicoleWallace.jpg"/>
+                    <figcaption>Nicole Wallace</figcaption>
+                </div>
+                <div>
+                    <img src="../acteur/GabrielGuevara.jpg"/>
+                    <figcaption>Gabriel Guevara</figcaption>
+                </div>
+                <div>
+                    <img src="../acteur/MartaHazas.jpg"/>
+                    <figcaption>Marta Hazas</figcaption>
+                </div>
+                <div>
+                    <img src="../acteur/IvanSanchez.jpg"/>
+                    <figcaption>Iván Sánchez</figcaption>
+                </div>
+                <div>
+                    <img src="../acteur/IvanMassagué.jpg"/>
+                    <figcaption>Ivan Massagué</figcaption>
+                </div>
+                <div>
+                    <img src="../acteur/EvaRuiz.jpg"/>
+                    <figcaption>Eva Ruiz</figcaption>
+                </div>
+                <div>
+                    <img src="../acteur/FranBerenguer.jpg"/>
+                    <figcaption>Fran Berenguer</figcaption>
+                </div>
+                <div>
+                    <img src="../acteur/NoahCasas.jpg"/>
+                    <figcaption>Noah Casas</figcaption>
+                </div>
+            </div>
+        </div>
+     </div>
+</body>
+<script src="../java.js"></script>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Ciné</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body style="background: #b9b9ff;">
+    <div class="entete_page">
+        <h1 style="color: #191970;">Dom Ciné</h1>
+        <img src="../icone_recherche.png" width="40px">
+        <input  type="search" oninput="recherche()" id="Recherche" class="recherche" placeholder="Rechercher un film...">
+        <a href ="../index.html"> <h2 style="color: #191970;">Accueil </h2></a>
+    </div>
+    <div class ="body">
+        <div class ="block_page">
+            <div class="titre_encadrer">
+                <p class="titre_page">Zootopie 2 :</p>
+            </div>
+            <div class="info_encadrer">
+                <p class="info">Durer: 1 heure et 48 minutes</p>
+                <p class="info">Réalisateurs : Byron Howard et Jared Brush</p>
+            </div>
+            <img src="../Image_Film/zootopie 2.jpg" class="image_page" />
+            <iframe 
+                class="video_page" 
+                src="https://www.youtube.com/embed/lliLY89jdyw?si=tlIKiWLfkrY3wLaW" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen></iframe>
+            <div>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles1()" class="etoile" id="etoile1"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles2()" class="etoile" id="etoile2"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles3()" class="etoile" id="etoile3"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles4()" class="etoile" id="etoile4"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles5()" class="etoile" id="etoile5"/>
+            </div>
+            <h3>Synopsis :</h3>
+            <p>ZOOTOPIE 2 permettra de retrouver le savoureux duo de choc formé par les jeunes policiers Judy Hopps et Nick Wilde, qui, après avoir résolu la plus grande affaire criminelle de l'histoire de Zootopie, découvrent que leur collaboration n'est pas aussi solide qu'ils le pensaient lorsque le chef Bogo leur ordonne de participer à un programme de thérapie réservé aux coéquipiers en crise. Leur partenariat sera même soumis à rude épreuve lorsqu'ils devront éclaircir - sous couverture et dans des quartiers inconnus de la ville - un nouveau mystère et s’engager sur la piste sinueuse d'un serpent venimeux fraîchement arrivé dans la cité animale…<p>
+    
+            
+            <div class="image_rangement"> 
+                <div>
+                    <img src="../acteur/Ginnifer Goodwin.webp"/>
+                    <figcaption>Ginnifer Goodwin</figcaption>
+                </div>
+                <div>
+                    <img src="../acteur/Jason Bateman.webp"/>
+                    <figcaption>Jason Bateman</figcaption>
+                </div>
+                <div>
+                    <img src="../acteur/Idris Elba.webp"/>
+                    <figcaption>Idris Elba</figcaption>
+                </div>
+                <div>
+                    <img src="../acteur/Nate Torrence.webp"/>
+                    <figcaption>Nate Torrence</figcaption>
+                </div>
+                <div>
+                    <img src="../acteur/Fortune Feimster.jpg"/>
+                    <figcaption>Fortune Feimster</figcaption>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../java.js"></script>
+</html>

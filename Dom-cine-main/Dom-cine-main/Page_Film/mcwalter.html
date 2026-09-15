@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Ciné</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body style="background: #b9b9ff;">
+    <div class="entete_page">
+        <h1 style="color: #191970;">Dom Ciné</h1>
+        <img src="../icone_recherche.png" width="40px">
+        <input  type="search" oninput="recherche()" id="Recherche" class="recherche" placeholder="Rechercher un film...">
+        <a href ="../index.html"> <h2 style="color: #191970;">Accueil </h2></a>
+    </div>
+    <div class ="body">
+        <div class ="block_page">
+            <div class="titre_encadrer">
+                <p class="titre_page">McWalter :</p>
+            </div>
+            <div class="info_encadrer">
+                <p class="info">Durer: 1 heure et 51 minutes</p>
+                <p class="info">Réalisateur : Simon Astier</p>
+            </div>
+            <img src="../Image_Film/mcwalter.jpg" class="image_page" />
+            <iframe 
+                class="video_page"  
+                src="https://www.youtube.com/embed/xsyFCcfrtS4?si=UVubZTeF3TnRWSBr" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+            </iframe>
+            <div>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles1()" class="etoile" id="etoile1"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles2()" class="etoile" id="etoile2"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles3()" class="etoile" id="etoile3"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles4()" class="etoile" id="etoile4"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles5()" class="etoile" id="etoile5"/>
+            </div>
+            <h3>Synopsis :</h3>
+            <p>Inspiré du personnage du même nom créé par Mister V, McWalter nous plonge dans les péripéties d’un agent secret déjanté. Après avoir éliminé un méchant qui menaçait la terre, et au passage une usine de pains à burger, McWalter peut enfin se consacrer à faire le deuil de sa compagne Tracy, morte accidentellement dans la précédente attaque. Mais c’était sans compter sur une série d’explosions mystérieuses qui secouent la planète. Son agence, exaspérée par ses méthodes destructrices, le convoque pour lui demander des comptes. Les choses tournent mal quand McWalter est accusé à tort : sur chaque lieu d’explosion, des traces de son ADN ont été retrouvées, l’impliquant directement. Mais s’il n’est pas coupable, alors qui orchestre ces attentats ? Alors qu’il tente de se défendre, une nouvelle explosion frappe le siège de l’agence... Pris au piège, notre héros doit non seulement prouver son innocence, mais aussi échapper à ceux qu’il a longtemps servis, tout en essayant de découvrir le cerveau derrière ces attaques dévastatrices.<p>
+                <h3>Acteurs principaux :</h3>
+                <div class="image_rangement"> 
+                    <div>
+                        <img src="../acteur/MisterV.jpg"/>
+                        <figcaption>Yvick Letexier</figcaption>
+                    </div>
+                    <div>
+                        <img src="../acteur/GéraldineNakache.jpg"/>
+                        <figcaption>Géraldine Nakache</figcaption>
+                    </div>
+                    <div>
+                        <img src="../acteur/FrançoisBerléand.jpg"/>
+                        <figcaption>François Berléand</figcaption>
+                    </div>
+                    <div>
+                        <img src="../acteur/CamilleLavarde.jpg"/>
+                        <figcaption>Camille Lavarde</figcaption>
+                    </div>
+                    <div>
+                        <img src="../acteur/SimonAstier.jpg"/>
+                        <figcaption>Simon Astier</figcaption>
+                    </div>
+                    <div>
+                        <img src="../acteur/DElphineBaril.jpg"/>
+                        <figcaption>Delphine Baril</figcaption>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+</body>
+<script src="../java.js"></script>
+</html>

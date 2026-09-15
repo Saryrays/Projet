@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Ciné</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body style="background: #b9b9ff;">
+    <div class="entete_page">
+        <h1 style="color: #191970;">Dom Ciné</h1>
+        <img src="../icone_recherche.png" width="40px">
+        <input  type="search" oninput="recherche()" id="Recherche" class="recherche" placeholder="Rechercher un film...">
+        <a href ="../index.html"> <h2 style="color: #191970;">Accueil </h2></a>
+    </div>
+    <div class ="body">
+        <div class ="block_page">
+            <div class="titre_encadrer">
+                <p class="titre_page">Black Phone 2 :</p>
+            </div>
+            <div class="info_encadrer">
+                <p class="info">Durer: 1 heure et 54 minutes</p>
+                <p class="info">Réalisateur : Scott Derrickson</p>
+            </div>
+            <img src="../Image_Film/black_phone_2.jpg" class="image_page" />
+            <iframe
+                class="video_page" 
+                src="https://www.youtube.com/embed/3OocNMlIlEI?si=0_GzBR7Le32BE9Si" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+            </iframe>
+            <div>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles1()" class="etoile" id="etoile1"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles2()" class="etoile" id="etoile2"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles3()" class="etoile" id="etoile3"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles4()" class="etoile" id="etoile4"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles5()" class="etoile" id="etoile5"/>
+            </div>
+            <h3>Synopsis :</h3>
+            <p>Depuis son enlèvement, Finney, aujourd’hui âgé de 17 ans, éprouve beaucoup de mal à reprendre le cours d’une vie normale, alors que rien ni personne ne saurait arrêter Gwen, sa sœur de 15 ans. Mais le sinistre téléphone se met à sonner dans les rêves de l’adolescente, où elle voit sans cesse trois garçons se faire pourchasser dans un camp de montagne appelé Alpine Lake. Déterminée à mettre fin à ces cauchemars et à en percer le mystère, Gwenn persuade son frère de se rendre sur place, malgré le blizzard qui frappe la station. C’est là qu’elle découvre l’horrible vérité derrière le lien entre l’Attrapeur et sa propre famille. Les deux adolescents vont alors devoir affronter un tueur que la mort a rendu presque invincible et à qui leurs destins sont beaucoup plus liés qu'ils n’auraient pu l’imaginer.<p>
+                <h3>Acteurs principaux :</h3>
+                <div class="image_rangement"> 
+                    <div>
+                        <img src="../acteur/MasonThames.jpg"/>
+                        <figcaption>Mason Thames</figcaption>
+                    </div>
+                    <div>
+                        <img src="../acteur/MadelaineMcGraw.jpg"/>
+                        <figcaption>Madelaine McGraw</figcaption>
+                    </div>
+                    <div>
+                        <img src="../acteur/EthanHawke.jpg"/>
+                        <figcaption>Ethan Hawke</figcaption>
+                    </div>
+                    <div>
+                        <img src="../acteur/DemianBichir.jpg"/>
+                        <figcaption>Demian Bichir</figcaption>
+                    </div>
+                    <div>
+                        <img src="../acteur/MiguelMora.jpg"/>
+                        <figcaption>Miguel Cazarez Mora</figcaption>
+                    </div>
+                    <div>
+                        <img src="../acteur/AriannaRivas.jpg"/>
+                        <figcaption>Arianna Rivas</figcaption>
+                    </div>
+                    <div>
+                        <img src="../acteur/JeremyDavies.jpg"/>
+                        <figcaption>Jeremys Davies</figcaption>
+                    </div>
+                    <div>
+                        <img src="../acteur/RebeccaClarke.jpg"/>
+                        <figcaption>Rebecca Clarke</figcaption>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+</body>
+<script src="../java.js"></script>
+</html>

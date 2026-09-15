@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Ciné</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body style="background: #b9b9ff;">
+    <div class="entete_page">
+        <h1 style="color: #191970;">Dom Ciné</h1>
+        <img src="../icone_recherche.png" width="40px">
+        <input  type="search" oninput="recherche()" id="Recherche" class="recherche" placeholder="Rechercher un film...">
+        <a href ="../index.html"> <h2 style="color: #191970;">Accueil </h2></a>
+    </div>
+    <div class ="body">
+        <div class ="block_page">
+            <div class="titre_encadrer">
+                <p class="titre_page">Le Chat Potté</p>
+            </div>
+            <div class="info_encadrer">
+                <p class="info">Durer: 1 heure et 30 minutes</p>
+                <p class="info">Réalisateur :  Chris Miller (II)</p>
+            </div>
+            <img src="../Image_Film/ChatPotte.jpg" class="image_page" />
+            <iframe
+                class="video_page" 
+                src="https://www.youtube.com/embed/uDalvsikWog?si=3-6H2N7zscaeEpof" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+            </iframe>
+            <div>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles1()" class="etoile" id="etoile1"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles2()" class="etoile" id="etoile2"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles3()" class="etoile" id="etoile3"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles4()" class="etoile" id="etoile4"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles5()" class="etoile" id="etoile5"/>
+            </div>
+            <h3>Synopsis :</h3>
+            <p>C’était bien avant que notre mythique Chat Potté ne croise la route de Shrek… Le légendaire félin, et non moins redoutable amant, s’était alors embarqué dans un périple riche en rebondissements, avec la ravissante et rusée Kitty Pattes de Velours et Humpty Alexandre Dumpty, véritable "cerveau" de l’opération. Leur objectif : s’emparer de la fameuse Oie aux Œufs d’Or pour sauver la ville où le Chat Potté a grandi. Voici l’histoire véridique du Chat, du Mythe, de la Légende et… des Bottes !<p>
+                <h3>Acteurs principaux :</h3>
+                <div class="image_rangement"> 
+                    <div>
+                        <img src="../acteur/AntonioBanderas.webp"/>
+                        <figcaption>Antonio Banderas</figcaption>
+                    </div>
+                    <div>
+                        <img src="../acteur/SalmaHayek.webp"/>
+                        <figcaption>Salma Hayek</figcaption>
+                    </div>
+                    <div>
+                        <img src="../acteur/ZachGalifianakis.webp"/>
+                        <figcaption>Zach Galifianakis</figcaption>
+                    </div>
+                    <div>
+                        <img src="../acteur/BillyBobThornton.webp"/>
+                        <figcaption>Billy Bob Thornton</figcaption>
+                    </div>
+                    <div>
+                        <img src="../acteur/Amy Sedaris.webp"/>
+                        <figcaption>Amy Sedaris</figcaption>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+</body>
+<script src="../java.js"></script>
+</html>

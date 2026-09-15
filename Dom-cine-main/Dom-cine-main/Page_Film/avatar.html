@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Ciné</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body style="background: #b9b9ff;">
+    <div class="entete_page">
+        <h1 style="color: #191970;">Dom Ciné</h1>
+        <img src="../icone_recherche.png" width="40px">
+        <input  type="search" oninput="recherche()" id="Recherche" class="recherche" placeholder="Rechercher un film...">
+        <a href ="../index.html"> <h2 style="color: #191970;">Accueil </h2></a>
+    </div>
+    <div class ="ConteneurPage">
+        <div class ="block_page">
+            <div class="titre_encadrer">
+                <p class="titre_page">Avatar :</p>
+            </div>
+            <div class="info_encadrer">
+                <p class="info">Durer: 2 heure et 42 minutes</p>
+                <p class="info">Réalisateur :  James Cameron</p>
+            </div>
+            <img src="../Image_Film/avatar.jpg" class="image_page" />
+            <iframe 
+                class="video_page"
+                src="https://www.youtube.com/embed/aVdO-cx-McA?si=z8K35WxhibJOg1MK" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+            </iframe>
+            <div>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles1()" class="etoile" id="etoile1"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles2()" class="etoile" id="etoile2"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles3()" class="etoile" id="etoile3"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles4()" class="etoile" id="etoile4"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles5()" class="etoile" id="etoile5"/>
+            </div>
+            <h3>Synopsis :</h3>
+            <p>Malgré sa paralysie, Jake Sully, un ancien marine immobilisé dans un fauteuil roulant, est resté un combattant au plus profond de son être. Il est recruté pour se rendre à des années-lumière de la Terre, sur Pandora, où de puissants groupes industriels exploitent un minerai rarissime destiné à résoudre la crise énergétique sur Terre. Parce que l'atmosphère de Pandora est toxique pour les humains, ceux-ci ont créé le Programme Avatar, qui permet à des " pilotes " humains de lier leur esprit à un avatar, un corps biologique commandé à distance, capable de survivre dans cette atmosphère létale. Ces avatars sont des hybrides créés génétiquement en croisant l'ADN humain avec celui des Na'vi, les autochtones de Pandora.
+
+                Sous sa forme d'avatar, Jake peut de nouveau marcher. On lui confie une mission d'infiltration auprès des Na'vi, devenus un obstacle trop conséquent à l'exploitation du précieux minerai. Mais tout va changer lorsque Neytiri, une très belle Na'vi, sauve la vie de Jake...<p>
+            <h3>Acteurs principaux :</h3>
+            <div class="image_rangement"> 
+                <div>
+                    <img src="../acteur/SamWorthington.jpg"/>
+                    <figcaption>Sal Worthington</figcaption>
+                </div>
+                <div>
+                    <img src="../acteur/ZoeSaldana.jpg"/>
+                    <figcaption>Zoe Saldana</figcaption>
+                </div>
+                <div>
+                    <img src="../acteur/SigourneyWeaver.jpg"/>
+                    <figcaption>Sigourney Weaver</figcaption>
+                </div>
+                <div>
+                    <img src="../acteur/StephenLang.jpg"/>
+                    <figcaption>Stephen Lang</figcaption>
+                </div>
+                <div>
+                    <img src="../acteur/MichelleRodriguez.jpg"/>
+                    <figcaption>Michelle Rodriguez</figcaption>
+                </div>
+                <div>
+                    <img src="../acteur/GiovanniRibisi.jpg"/>
+                    <figcaption>Giovanni Ribisi</figcaption>
+                </div>
+                <div>
+                    <img src="../acteur/JoelDavid.jpg"/>
+                    <figcaption>Joel David Moore</figcaption>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../java.js"></script>
+</html>

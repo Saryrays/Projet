@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Ciné</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body style="background: #b9b9ff;">
+    <div class="entete_page">
+        <h1 style="color: #191970;">Dom Ciné</h1>
+        <img src="../icone_recherche.png" width="40px">
+        <input  type="search" oninput="recherche()" id="Recherche" class="recherche" placeholder="Rechercher un film...">
+        <a href ="../index.html"> <h2 style="color: #191970;">Accueil </h2></a>
+    </div>
+    <div class ="body">
+        <div class ="block_page">
+            <div class="titre_encadrer">
+                <p class="titre_page">Jurassic World :</p>
+            </div>
+            <div class="info_encadrer">
+                <p class="info">Durer: 2 heures et 05 minutes</p>
+                <p class="info">Réalisateur : Colin Trevorrow</p>
+            </div>
+            <img src="../Image_Film/jurassic_world.jpg" class="image_page"/>
+            <iframe  
+                class="video_page"
+                src="https://www.youtube.com/embed/wmzAfqhphq8?si=o_Xckt7cWWSeA_38" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+            </iframe>
+            <div>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles1()" class="etoile" id="etoile1"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles2()" class="etoile" id="etoile2"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles3()" class="etoile" id="etoile3"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles4()" class="etoile" id="etoile4"/>
+                <img  src="../Image/etoile_vide.png" onclick="etoiles5()" class="etoile" id="etoile5"/>
+            </div>
+            <h3>Synopsis :</h3>
+            <p>L'Indominus Rex, un dinosaure génétiquement modifié, pure création de la scientifique Claire Dearing, sème la terreur dans le fameux parc d'attraction. Les espoirs de mettre fin à cette menace reptilienne se portent alors sur le dresseur de raptors Owen Grady et sa cool attitude.<p>
+                <h3>Acteurs principaux :</h3>
+                <div class="image_rangement"> 
+                    <div>
+                        <img src="../acteur/ChrisPratt.jpg"/>
+                        <figcaption>Chris Pratt</figcaption>
+                    </div>
+                    <div>
+                        <img src="../acteur/BryceDallasHoward.jpg"/>
+                        <figcaption>Bryce Dallas Howard</figcaption>
+                    </div>
+                    <div>
+                        <img src="../acteur/NickRobinson.jpg"/>
+                        <figcaption>Nick Robinson</figcaption>
+                    </div>
+                    <div>
+                        <img src="../acteur/TySimpkins.jpg"/>
+                        <figcaption>Ty Simpkins</figcaption>
+                    </div>
+                    <div>
+                        <img src="../acteur/BDWong.jpg"/>
+                        <figcaption>B.D. Wong</figcaption>
+                    </div>
+                    <div>
+                        <img src="../acteur/IrrfanKhan.jpg"/>
+                        <figcaption>Irrfan Khan</figcaption>
+                    </div>
+                    <div>
+                        <img src="../acteur/VincentD'onofrio.jpg"/>
+                        <figcaption>Vicent D'Onofrio</figcaption>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+</body>
+<script src="../java.js"></script>
+</html>
